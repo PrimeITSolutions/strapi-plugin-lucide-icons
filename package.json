@@ -1,6 +1,6 @@
 {
-  "name": "@primeitsolutions/strapi-plugin-lucide-icons",
-  "version": "0.0.1",
+  "name": "@primeit/strapi-plugin-lucide-icons",
+  "version": "0.0.0",
   "description": "This plugin adds a custom field to select an icon from the Lucide icon pack.",
   "strapi": {
     "name": "lucide-icons",
@@ -30,13 +30,13 @@
     "react-router-dom": "^5.3.4",
     "styled-components": "^5.3.6"
   },
-  "author": "A Strapi developer",
+  "author": "Ricardo Domingues",
   "maintainers": [
     "Ricardo Domingues"
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/PrimeITSolutions/strapi-plugin-lucide-icons.git"
+    "url": "https://github.com/PrimeITSolutions/strapi-plugin-lucide-icons.git"
   },
   "keywords": [
     "Strapi",
