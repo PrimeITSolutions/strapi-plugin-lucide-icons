@@ -1,0 +1,58 @@
+{
+  "name": "@primeitsolutions/strapi-plugin-lucide-icons",
+  "version": "0.0.1",
+  "description": "This plugin adds a custom field to select an icon from the Lucide icon pack.",
+  "strapi": {
+    "name": "lucide-icons",
+    "description": "This plugin adds a custom field to select an icon from the Lucide icon pack.",
+    "kind": "plugin"
+  },
+  "dependencies": {
+    "@strapi/design-system": "^1.6.3",
+    "@strapi/helper-plugin": "^4.6.0",
+    "@strapi/icons": "^1.6.3",
+    "lucide-react": "^0.290.0",
+    "prop-types": "^15.7.2"
+  },
+  "devDependencies": {
+    "@strapi/typescript-utils": "^4.6.0",
+    "@types/react": "^18.2.33",
+    "@types/react-dom": "^18.2.14",
+    "@types/react-router-dom": "^5.3.3",
+    "@types/styled-components": "^5.1.26",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^5.3.4",
+    "styled-components": "^5.3.6",
+    "typescript": "5.0.4"
+  },
+  "peerDependencies": {
+    "react-router-dom": "^5.3.4",
+    "styled-components": "^5.3.6"
+  },
+  "author": "A Strapi developer",
+  "maintainers": [
+    "Ricardo Domingues"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PrimeITSolutions/strapi-plugin-lucide-icons.git"
+  },
+  "keywords": [
+    "Strapi",
+    "plugin",
+    "lucide",
+    "icons",
+    "icon"
+  ],
+  "engines": {
+    "node": ">=16.0.0 <=20.x.x",
+    "npm": ">=6.0.0"
+  },
+  "scripts": {
+    "develop": "tsc -p tsconfig.server.json -w",
+    "build": "tsc -p tsconfig.server.json"
+  },
+  "license": "MIT",
+  "main": "strapi-admin.js"
+}
